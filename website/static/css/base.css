@@ -1,0 +1,23 @@
+#mapid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#map-wrapper {
+  width: 100%;
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#button-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  pointer-events: auto !important;
+}
