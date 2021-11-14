@@ -9,7 +9,7 @@
 #map-wrapper {
   width: 100%;
   position: absolute;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   top: 0;
   right: 0;
   bottom: 0;
@@ -20,4 +20,44 @@
   width: 80%;
   margin: 0 auto;
   pointer-events: auto !important;
+  z-index: 1000;
+}
+
+#login-form-close-btn {
+  border: none;
+}
+
+#signup-form-close-btn {
+  border: none;
+}
+#CheckPasswordMatch {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.headerpopup {
+  z-index: 1090;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  transform-origin: top right;
+  transform: scale(0.9);
+  transition: opacity 0.05s 0s, transform 0.05s 0s, visibility 0s 0.15s;
+  min-width: 320px;
+  max-width: 560px;
+  /* pointer-events: none; 
+  border: 2px black solid"*/
+}
+
+.is_hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.is_visible {
+  visibility: visible;
+}
+
+.align_right_btn {
+  float: right;
 }
